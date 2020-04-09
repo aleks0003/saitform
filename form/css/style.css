@@ -1,0 +1,29 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menus {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+ul {
+    width: 50%;
+    margin: 0px;
+    margin-left: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+li {
+    width: 30px;
+    font-size: 2rem;
+    list-style-type: none;
+    color: rgb(244, 244, 245);
+}
+
+.shedo-t {
+    text-shadow: 2px 1px 2px black;
+}
